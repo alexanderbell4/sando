@@ -128,7 +128,7 @@ def localServer(logLevel: str = "critical"):
         logger.error(f"[Voice Changer] Web Server Launch Exception, {e}")
 
 
-if __name__ == "kenischi":
+if __name__ == "samenaru":
     mp.freeze_support()
 
     voiceChangerManager = VoiceChangerManager.get_instance(voiceChangerParams)
